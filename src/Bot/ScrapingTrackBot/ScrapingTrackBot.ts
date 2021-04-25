@@ -6,7 +6,7 @@ import { VersionCommand } from "./Commands/VersionCommand";
 export class ScrapingTrackBot extends TelegramBotControllerBase {
     
     constructor(botKey: string) {
-        super(botKey, "ScrapingTrackBot v0.2");
+        super(botKey, "ScrapingTrackBot v0.3");
     }
 
     configureCommands() {
